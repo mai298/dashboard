@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+  import 'bootstrap/dist/css/bootstrap.min.css';
+  import './App.css';
+  import Home from './components/Home';
+  import './Home.css';
+  import RequireAuth from './components/RequireAuth';
+  import Dashboard from './components/Dashboard';
+import { Provider } from 'react-redux';
+import store from './redux/store';
+import 'bootstrap/dist/css/bootstrap.min.css';
+  
+  function App() {
+    return (
+    
+      <Provider store={store}>
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
+      <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/dashboard" element={<RequireAuth component={Dashboard} />} />
+              </Routes>
+      
+      </Router>
+      </Provider>
+    );
+  }
+  
 export default App;

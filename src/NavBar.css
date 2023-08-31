@@ -1,0 +1,22 @@
+.header{
+  background-color: #F3CFC6;
+}
+.header form{
+  width: 200px;
+  max-width: auto;
+  margin-top: 10px;
+  
+  } 
+  .header h2{
+   color: white;
+   font-size: 40px;
+  }
+  
+  .header .fem{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+  
+  
+  }

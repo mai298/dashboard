@@ -1,0 +1,50 @@
+.header form{
+width: 300px;
+max-width: auto;
+margin-top: 10px;
+} 
+.header h3{
+ color: white;
+ font-size: 35px;
+}
+
+.header .fem{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+
+
+}
+.exam{
+  background-color:#DCDCDC;
+  width: 60%;
+  border-radius: 20px;
+  height: 50vh;
+}
+.exam h2{
+  color:#fff;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.exam p{
+  color:#707070;
+  font-size: 15px;
+}
+.exam .exambtn{
+  background-color: #ab3550;
+  border: 1px solid #ab3550;
+  box-sizing: border-box;
+  color: white !important;
+  margin-left: 10px;
+  width: 200px;
+  font-size: 25px;
+  border-radius: 20px;
+  height: 60px;
+}
+
+.exam .exambtn:hover{
+  background-color:transparent;
+  color: #ab3550 !important;
+  transition: .2s ease-in-out;
+}

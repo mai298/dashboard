@@ -1,0 +1,60 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.welcome{
+  background-color: #ac2947 !important;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  max-width: 100%;
+  height: 600px;
+  padding: 25px 0px;
+  margin-top: 0px;
+}
+.welcome .row{
+  margin: 15px 0px;
+}
+.welcome h1 {
+  color: white !important;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 200px;
+}
+
+.welcome button{
+  background-color: #eec0c8;
+  border: 1px solid #eec0c8;
+  box-sizing: border-box;
+  color: white !important;
+  margin-left: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+
+
+.welcome button:hover{
+  background-color:transparent;
+  color: white !important;
+  transition: .2s ease-in-out;
+}
