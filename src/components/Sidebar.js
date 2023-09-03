@@ -8,8 +8,13 @@ import icon3 from '../imgs/icons8-course-32.png';
 import icon4 from '../imgs/icons8-graduation-32.png';
 import icon5 from '../imgs/icons8-performance-32.png';
 import icon6 from '../imgs/icons8-megaphone-32.png';
+import { useTranslation } from 'react-i18next';
+
 
 function Sidebar() {
+
+  const { t } = useTranslation();
+
   return (
     <div className="fixed-top">
       <div className="fixed-sidebar">
@@ -18,37 +23,39 @@ function Sidebar() {
           <Nav.Item>
             <NavLink to="/dashboard"  className="nav-link">
               <img src={icon1} alt="home" className="img-fluid pe-3" />
-              Dashboard
+              {t('dashboard')}
             </NavLink>
           </Nav.Item>
           <Nav.Item>
             <NavLink to="#" className="nav-link">
               <img src={icon2} alt="home" className="img-fluid pe-3" />
-              Schedule
+              {t('schedule')}
             </NavLink>
           </Nav.Item>
           <Nav.Item>
             <NavLink to="#" className="nav-link">
               <img src={icon3} alt="home" className="img-fluid pe-3" />
-              Courses
+              {t('courses')}
             </NavLink>
           </Nav.Item>
           <Nav.Item>
             <NavLink to="#" className="nav-link">
               <img src={icon4} alt="home" className="img-fluid pe-3" />
-              Gradebook
+              {t('gradebook')}
+
             </NavLink>
           </Nav.Item>
           <Nav.Item>
             <NavLink to="#" className="nav-link">
               <img src={icon5} alt="home" className="img-fluid pe-3" />
-              Performance
+              {t('performance')}
             </NavLink>
           </Nav.Item>
           <Nav.Item>
             <NavLink to="/announcement" className="nav-link">
               <img src={icon6} alt="home" className="img-fluid pe-2" />
-              Announcement
+              {t('announcement')}
+
             </NavLink>
           </Nav.Item>
         </Nav>

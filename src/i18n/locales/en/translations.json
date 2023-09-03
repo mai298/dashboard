@@ -1,0 +1,25 @@
+{
+  "logout": "Logout",
+
+  "Welcome":"Welcome!!",
+
+  "dashboard":"Dashboard",
+  "schedule":"Schedule",
+  "courses":"Courses",
+  "gradebook":"Gradebook",
+  "performance":"Performance",
+  "announcement":"Announcement",
+
+  "welcome-home":"WELCOME TO DASHBOARD WEBSITE!",
+  "login":"Login",
+  "exam-time":"Exam Time",
+  "exam-para":"here we are ,are you ready to fight?",
+  "exam-btn":"View exams tips",
+  "search":"search",
+  "para-announce":"we educate warriors!keep updated"
+
+
+
+
+
+}

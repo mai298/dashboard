@@ -34,7 +34,7 @@
   display: inline-block;
   font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 20px;
-  font-weight: 500;
+  width: 150px;
   height: 40px;
   line-height: 20px;
   list-style: none;
@@ -46,7 +46,6 @@
   transition: color 100ms;
   vertical-align: baseline;
   user-select: none;
-  -webkit-user-select: none;
   touch-action: manipulation;
 }
 

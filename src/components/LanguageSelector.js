@@ -11,6 +11,8 @@ function LanguageSelector() {
   return (
     <div>
       <button onClick={() => changeLanguage('ar')}>العربيه</button>
+      <button onClick={() => changeLanguage('en')}>English</button>
+
     </div>
   );
 }

@@ -20,7 +20,6 @@ margin-top: 10px;
   background-color:#DCDCDC;
   width: 60%;
   border-radius: 20px;
-  height: 50vh;
 }
 .exam h2{
   color:#fff;
@@ -37,7 +36,7 @@ margin-top: 10px;
   box-sizing: border-box;
   color: white !important;
   margin-left: 10px;
-  width: 200px;
+  width: 250px;
   font-size: 25px;
   border-radius: 20px;
   height: 60px;
@@ -47,4 +46,26 @@ margin-top: 10px;
   background-color:transparent;
   color: #ab3550 !important;
   transition: .2s ease-in-out;
+}
+
+.announce{
+  background-color:#DCDCDC;
+  width: 60%;
+  border-radius: 20px;
+
+}
+.announce h2{
+  color:#fff;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.announce p{
+  color:#707070;
+  font-size: 15px;
+}
+.announce img{
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin-bottom: 5px;
 }

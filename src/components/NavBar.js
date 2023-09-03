@@ -7,20 +7,25 @@ import message from'../imgs/icons8-email-32.png';
 import female from'../imgs/fem.jpg';
 import Logout from './Logout';
 import LanguageSelector from './LanguageSelector';
+import { useTranslation } from 'react-i18next';
 function NavBar(){
+
+  const { t } = useTranslation();
+
   return(
   
   <div className='header'>
    <Navbar expand="lg" className="">
       <Container>
-<h2 className='ms-5 ps-5'>WELCOME!!</h2>
+<h2 className='ms-5 ps-5'>{t('Welcome')}</h2>
+
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto me-4">
           <Form >
               <Form.Control
                 type="text"
-                placeholder="Search"/>
+                placeholder={t('search')}/>
             </Form>
           </Nav>
 
