@@ -17,7 +17,7 @@ function Dashboard() {
   const [announcements, setAnnouncements] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3001/announcements')
+    fetch('http://localhost:3000/announcements')
       .then(response => response.json())
       .then(data => {
         setAnnouncements(data);
